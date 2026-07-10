@@ -335,7 +335,8 @@ Passionate about building data-driven solutions using Python, SQL, Machine Learn
 Interested in solving real-world problems through analytics and intelligent systems.
 
 ---
-
-
+## Support  
 
 If you found this project useful, consider giving it a star!
+
+It helps others discover the project and supports future development.
