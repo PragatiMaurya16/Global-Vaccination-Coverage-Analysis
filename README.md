@@ -1,46 +1,88 @@
 # Global Vaccination Coverage Analysis Dashboard
 
+# Dashboard Preview
+
+![Power BI Dashboard](screenshots/vaccination_dashboard.png)
+
 ## Project Overview
 
 The **Global Vaccination Coverage Analysis Dashboard** is an end-to-end data analytics project that analyzes worldwide vaccination coverage, vaccine distribution trends, and country-level healthcare insights.
 
-The project combines **Python, SQL, and Power BI** to clean, transform, analyze, and visualize vaccination datasets to identify global patterns and trends.
+This project combines **Python, SQL, and Power BI** to clean, transform, analyze, and visualize vaccination datasets.
 
-The final interactive dashboard provides insights into vaccination coverage across countries, years, and vaccine categories.
+The objective is to understand vaccination patterns across countries, identify coverage trends over time, compare vaccine performance, and present meaningful insights through an interactive Power BI dashboard.
 
 ---
 
-# Objectives
+# Project Highlights
+
+- End-to-end data analytics workflow
+- Data cleaning and preprocessing using Python
+- Exploratory Data Analysis (EDA)
+- SQL-based data analysis
+- Interactive Power BI dashboard development
+- Analysis of **50K+ vaccination records**
+- Coverage analysis across **242 countries**
+- Data visualization and storytelling
+
+---
+
+# Project Objectives
+
+The main goals of this project are:
 
 - Analyze global vaccination coverage trends over time
 - Identify countries with the highest vaccination coverage
 - Compare vaccination performance across different vaccines
-- Understand global distribution patterns
-- Create an interactive business intelligence dashboard using Power BI
+- Understand vaccine distribution patterns
+- Create an interactive business intelligence dashboard
+- Extract meaningful healthcare insights from vaccination data
+
+---
+
+# Dataset Description
+
+The dataset contains global vaccination-related information including:
+
+- Country
+- Year
+- Vaccine antigen
+- Vaccination coverage percentage
+- Number of doses
+- Vaccine introduction information
+- Disease incidence data
+- Reported cases
+
+The raw dataset was cleaned and transformed before performing analysis.
 
 ---
 
 # Tech Stack
 
-### Programming & Data Processing
+## Programming & Data Processing
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 
-### Database
-- SQL
-- Data modeling
-- Analytical queries
+## Database & Querying
 
-### Visualization
+- MySQL
+- SQL Queries
+- Data Modeling
+
+## Visualization
+
 - Microsoft Power BI
-- Interactive dashboards
-- Data storytelling
+- Interactive Dashboards
+- Data Storytelling
 
-### Development Tools
-- Git & GitHub
+## Development Tools
+
+- Git
+- GitHub
 - VS Code
 
 ---
@@ -50,20 +92,6 @@ The final interactive dashboard provides insights into vaccination coverage acro
 ```
 Global-Vaccination-Coverage-Analysis/
 
-│
-├── data/
-│   └── Raw vaccination datasets
-│
-├── script/
-│   ├── data_cleaning.py
-│   ├── eda.py
-│   ├── create_sample.py
-│   └── fix_schedule_csv.py
-│
-├── sql/
-│   ├── create_database.sql
-│   ├── create_tables.sql
-│   └── analysis_queries.sql
 │
 ├── outputs/
 │   ├── plots/
@@ -75,115 +103,166 @@ Global-Vaccination-Coverage-Analysis/
 ├── screenshots/
 │   └── vaccination_dashboard.png
 │
+├── script/
+│   ├── create_sample.py
+│   ├── data_cleaning.py
+│   ├── eda.py
+│   └── fix_schedule_csv.py
+│
+├── sql/
+│   ├── create_database.sql
+│   ├── create_tables.sql
+│   └── analysis_queries.sql
+│
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# Dashboard Features
+# Project Workflow
 
-The Power BI dashboard includes:
+```
+Raw Dataset
+      ↓
+Data Cleaning using Python
+      ↓
+Exploratory Data Analysis
+      ↓
+Data Storage & Analysis using MySQL
+      ↓
+SQL Queries & Insights
+      ↓
+Power BI Dashboard
+      ↓
+Data Visualization & Reporting
+```
 
-### Key Performance Indicators
+---
+
+# Data Cleaning & Preparation
+
+Performed data preprocessing steps including:
+
+- Handling missing values
+- Correcting data types
+- Removing inconsistencies
+- Preparing structured datasets
+- Creating analysis-ready tables
+
+---
+
+# Exploratory Data Analysis
+
+Performed analysis to understand:
+
+- Vaccination coverage trends
+- Country-wise vaccination performance
+- Vaccine distribution patterns
+- Disease incidence trends
+- Global vaccination changes over time
+
+---
+
+# SQL Analysis
+
+Created SQL queries to analyze:
+
+- Top countries by vaccination coverage
+- Vaccination trends over years
+- Commonly used vaccines
+- Vaccine introduction patterns
+- Disease incidence patterns
+- Country-level comparisons
+
+---
+
+# Power BI Dashboard
+
+The interactive Power BI dashboard includes:
+
+## KPI Cards
 
 - Total Countries Analyzed: **242**
 - Total Vaccination Records: **50K+**
-- Total Vaccine Doses: **34.02 Billion**
 - Average Vaccination Coverage: **77.87%**
+- Total Vaccine Doses: **34.02 Billion**
 
 ---
 
-# Visualizations Included
+## Visualizations Included
 
 ### 1. Vaccination Coverage Trend Over Years
 
-Shows how global vaccination coverage has changed over time.
+Shows how vaccination coverage has changed globally over time.
+
+---
 
 ### 2. Top 10 Countries by Vaccination Coverage
 
-Identifies countries achieving the highest vaccination coverage rates.
+Highlights countries achieving the highest vaccination coverage rates.
+
+---
 
 ### 3. Average Coverage by Antigen
 
-Compares coverage levels across different vaccines.
+Compares vaccination coverage across different vaccine categories.
+
+---
 
 ### 4. Global Vaccination Coverage Map
 
-Displays country-wise vaccination distribution.
+Provides geographical analysis of vaccination coverage across countries.
 
-### 5. KPI Summary Cards
-
-Provides a quick overview of major vaccination statistics.
+> Note: Azure Maps availability depends on Power BI tenant settings and regional restrictions.
 
 ---
 
-# Data Analysis Performed
+# Key Insights
 
-## Data Cleaning
-
-Performed:
-
-- Missing value handling
-- Data type corrections
-- Dataset restructuring
-- Data preparation for analysis
-
-## Exploratory Data Analysis
-
-Analyzed:
-
-- Coverage trends
-- Country-level performance
-- Vaccine-wise distribution
-- Global vaccination patterns
-
-## SQL Analysis
-
-Created queries to answer:
-
-- Which countries have the highest vaccination coverage?
-- What are the most common vaccines?
-- How has vaccination changed over time?
-- Which diseases have the highest reported cases?
-
----
-
-# Dashboard Preview
-
-![Power BI Dashboard](screenshots/vaccination_dashboard.png)
+- Global vaccination coverage has improved significantly over time.
+- Average vaccination coverage across analyzed records is approximately **78%**.
+- Several countries achieved vaccination coverage above **90%**.
+- Vaccination performance varies across different vaccine antigens.
+- Healthcare programs and accessibility influence country-level vaccination differences.
 
 ---
 
 # How to Run the Project
 
-### 1. Clone Repository
+## 1. Clone Repository
 
 ```bash
 git clone https://github.com/PragatiMaurya16/Global-Vaccination-Coverage-Analysis.git
 ```
 
-### 2. Create Virtual Environment
+---
+
+## 2. Create Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-Activate:
+Activate environment:
 
-Windows:
+### Windows
 
 ```bash
 .venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+---
+
+## 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run Analysis Scripts
+---
+
+## 4. Run Python Scripts
 
 Example:
 
@@ -193,7 +272,21 @@ python script/data_cleaning.py
 python script/eda.py
 ```
 
-### 5. Open Dashboard
+---
+
+## 5. Run SQL Analysis
+
+Execute SQL files inside:
+
+```
+sql/
+```
+
+using MySQL.
+
+---
+
+## 6. Open Power BI Dashboard
 
 Open:
 
@@ -205,21 +298,29 @@ using Microsoft Power BI Desktop.
 
 ---
 
-# Key Insights
+# Skills Demonstrated
 
-- Global vaccination coverage has improved significantly over the years.
-- Several countries achieved vaccination coverage above 90%.
-- Vaccine performance varies across different antigens.
-- Healthcare access and vaccination programs influence country-level differences.
+- Data Cleaning
+- Exploratory Data Analysis
+- Python Programming
+- SQL Query Writing
+- Database Management
+- Data Visualization
+- Power BI Dashboard Development
+- Business Intelligence
+- Data Storytelling
 
 ---
 
 # Future Improvements
 
-- Add interactive Streamlit web application
+Possible improvements:
+
+- Build a Streamlit web application
 - Integrate real-time vaccination APIs
-- Add predictive models for future coverage trends
+- Add predictive models for future vaccination trends
 - Deploy dashboard online
+- Automate data updates
 
 ---
 
@@ -227,12 +328,14 @@ using Microsoft Power BI Desktop.
 
 **Pragati Maurya**
 
-B.Tech Student | Data Science & Machine Learning Enthusiast | Python Developer | Data Analyst Aspirant
+B.Tech Student | Machine Learning & Data Science Enthusiast | Aspiring Python Developer & Data Scientist
+
+Passionate about building data-driven solutions using Python, SQL, Machine Learning, and Data Visualization.
+
+Interested in solving real-world problems through analytics and intelligent systems.
 
 ---
 
-## Support  
+
 
 If you found this project useful, consider giving it a star!
-
-It helps others discover the project and supports future development.
