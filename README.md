@@ -227,7 +227,12 @@ using Microsoft Power BI Desktop.
 
 **Pragati Maurya**
 
-GitHub:
-https://github.com/PragatiMaurya16
+B.Tech Student | Data Science & Machine Learning Enthusiast | Python Developer | Data Analyst Aspirant
 
 ---
+
+## Support  
+
+If you found this project useful, consider giving it a star!
+
+It helps others discover the project and supports future development.
