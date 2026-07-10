@@ -1,6 +1,6 @@
 # Global Vaccination Coverage Analysis Dashboard
 
-# Dashboard Preview
+## Dashboard Preview
 
 ![Power BI Dashboard](screenshots/vaccination_dashboard.png)
 
