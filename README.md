@@ -1,6 +1,4 @@
-# 🌍 Global Vaccination Coverage Analysis Dashboard
-
-![Dashboard Preview](screenshots/vaccination_dashboard.png)
+# Global Vaccination Coverage Analysis Dashboard
 
 ## Project Overview
 
@@ -87,7 +85,7 @@ Global-Vaccination-Coverage-Analysis/
 
 The Power BI dashboard includes:
 
-### 🔹 Key Performance Indicators
+### Key Performance Indicators
 
 - Total Countries Analyzed: **242**
 - Total Vaccination Records: **50K+**
@@ -157,7 +155,7 @@ Created queries to answer:
 
 ---
 
-# ⚙️ How to Run the Project
+# How to Run the Project
 
 ### 1. Clone Repository
 
